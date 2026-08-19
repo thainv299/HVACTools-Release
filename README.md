@@ -1,6 +1,5 @@
 # 📊 HVAC Tools - Hướng Dẫn Sử Dụng Phần Mềm
 ---
-9
 ## 📑 Mục Lục
 1. [Hướng dẫn tải ứng dụng ](#1-hướng-dẫn--tải-ứng-dụng)
 2. [Khởi Động & Nạp Dữ Liệu](#2-khởi-động--nạp-dữ-liệu)
