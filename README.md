@@ -15,17 +15,21 @@
 ---
 
 ## 1. Hướng dẫn tải ứng dụng
-- **Bước 1** : Click vào phần HVAC_Tools ở bên dưới Release
+### - **Bước 1** : Click vào phần HVAC_Tools ở bên dưới Release
+
 ![Bước 1](assets/huongdan1.jpg)
 
-- **Bước 2** : Click vào HVAC_Tools.zip để tải file nén phần mềm
+### - **Bước 2** : Click vào HVAC_Tools.zip để tải file nén phần mềm
+
 ![Bước 2](assets/huongdan2.jpg)
 
-- **Bước 3** : Giải nén ứng dụng
+### - **Bước 3** : Giải nén ứng dụng
+
 ![Bước 3](assets/huongdan3.jpg)
 
-- **Bước 4** : Click chọn file HVACTools.exe để khởi chạy phần mềm
+### - **Bước 4** : Click chọn file HVACTools.exe để khởi chạy phần mềm
 ### Lưu ý : Lần đầu tiên chạy phần mềm sẽ phải giải nén các thư viện, nên sẽ mất khoảng vài giây.
+
 ![Bước 4](assets/huongdan4.jpg)
 ## 2. Khởi Động & Nạp Dữ Liệu
 
