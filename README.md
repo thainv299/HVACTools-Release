@@ -1,22 +1,33 @@
 # 📊 HVAC Tools - Hướng Dẫn Sử Dụng Phần Mềm
-
-**HVAC Tools (Thermal Test Analyzer)** là ứng dụng chuyên dụng dành cho kỹ sư thử nghiệm HVAC ô tô, hỗ trợ phân tích dữ liệu nhiệt độ, vẽ biểu đồ tương tác thời gian thực, đánh giá tiêu chí bài test (Acceptance Criteria) tại các mốc Set Point và xuất báo cáo tự động.
-
 ---
-
+9
 ## 📑 Mục Lục
-1. [Khởi Động & Nạp Dữ Liệu](#1-khởi-động--nạp-dữ-liệu)
-2. [Quản Lý & Phân Nhóm Cảm Biến](#2-quản-lý--phân-nhóm-cảm-biến)
-3. [Tùy Chỉnh Biểu Đồ & Trục Thời Gian](#3-tùy-chỉnh-biểu-đồ--trục-thời-gian)
-4. [Cấu Hình Điểm Mốc Set Point](#4-cấu-hình-điểm-mốc-set-point)
-5. [Chọn Tín Hiệu & Quản Lý Preset Biểu Đồ](#5-chọn-tín-hiệu--quản-lý-preset-biểu-đồ)
-6. [Bảng Phân Tích Set Point & Cài Đặt Bài TEST](#6-bảng-phân-tích-set-point--cài-đặt-bài-test)
-7. [Tương Tác Trên Đồ Thị & Phím Tắt](#7-tương-tác-trên-đồ-thị--phím-tắt)
-8. [Xuất Báo Cáo & Cập Nhật Ứng Dụng](#8-xuất-báo-cáo--cập-nhật-ứng-dụng)
+1. [Hướng dẫn tải ứng dụng ](#1-hướng-dẫn--tải-ứng-dụng)
+2. [Khởi Động & Nạp Dữ Liệu](#2-khởi-động--nạp-dữ-liệu)
+3. [Quản Lý & Phân Nhóm Cảm Biến](#3-quản-lý--phân-nhóm-cảm-biến)
+4. [Tùy Chỉnh Biểu Đồ & Trục Thời Gian](#4-tùy-chỉnh-biểu-đồ--trục-thời-gian)
+5. [Cấu Hình Điểm Mốc Set Point](#5-cấu-hình-điểm-mốc-set-point)
+6. [Chọn Tín Hiệu & Quản Lý Preset Biểu Đồ](#6-chọn-tín-hiệu--quản-lý-preset-biểu-đồ)
+8. [Bảng Phân Tích Set Point & Cài Đặt Bài TEST](#7-bảng-phân-tích-set-point--cài-đặt-bài-test)
+8. [Tương Tác Trên Đồ Thị & Phím Tắt](#8-tương-tác-trên-đồ-thị--phím-tắt)
+9. [Xuất Báo Cáo & Cập Nhật Ứng Dụng](#9-xuất-báo-cáo--cập-nhật-ứng-dụng)
 
 ---
 
-## 1. Khởi Động & Nạp Dữ Liệu
+## 1. Hướng dẫn tải ứng dụng
+- **Bước 1** : Click vào phần HVAC_Tools ở bên dưới Release
+![Bước 1](assets/huongdan1.jpg)
+
+- **Bước 2** : Click vào HVAC_Tools.zip để tải file nén phần mềm
+![Bước 2](assets/huongdan2.jpg)
+
+- **Bước 3** : Giải nén ứng dụng
+![Bước 3](assets/huongdan3.jpg)
+
+- **Bước 4** : Click chọn file HVACTools.exe để khởi chạy phần mềm
+### Lưu ý : Lần đầu tiên chạy phần mềm sẽ phải giải nén các thư viện, nên sẽ mất khoảng vài giây.
+![Bước 4](assets/huongdan4.jpg)
+## 2. Khởi Động & Nạp Dữ Liệu
 
 - **Mở tệp CSV**: Nhấn nút **`📂 Chọn Tệp CSV`** để chọn tệp log dữ liệu thử nghiệm từ máy tính.
 - **Dữ liệu mẫu**: Nhấn **`📊 Nạp Dữ Liệu Mẫu`** để nạp nhanh tệp `data_thermal.csv` có sẵn để dùng thử.
@@ -25,7 +36,7 @@
 
 ---
 
-## 2. Quản Lý & Phân Nhóm Cảm Biến
+## 3. Quản Lý & Phân Nhóm Cảm Biến
 
 Giao diện cột bên trái (**Nhóm 2**) cho phép gom các cảm biến nhiệt độ riêng lẻ thành các nhóm đại diện (VD: *Nhóm Vent, Nhóm Head, Nhóm Floor*):
 
@@ -43,7 +54,7 @@ Giao diện cột bên trái (**Nhóm 2**) cho phép gom các cảm biến nhi�
 
 ---
 
-## 3. Tùy Chỉnh Biểu Đồ & Trục Thời Gian
+## 4. Tùy Chỉnh Biểu Đồ & Trục Thời Gian
 
 Tại **Nhóm 3 (Tùy Chỉnh Trục & Hiển Thị)**:
 - **Tiêu đề đồ thị**: Nhập tên bài test để hiển thị trên đỉnh biểu đồ.
@@ -55,7 +66,7 @@ Tại **Nhóm 3 (Tùy Chỉnh Trục & Hiển Thị)**:
 
 ---
 
-## 4. Cấu Hình Điểm Mốc Set Point
+## 5. Cấu Hình Điểm Mốc Set Point
 
 Tại **Nhóm 4 (Cấu Hình Điểm Mốc)**:
 - **Số lượng điểm Set Point**: Nhập số mốc thời gian cần đánh giá (từ `1` đến `10` điểm: *A, B, C, D...*).
@@ -64,7 +75,7 @@ Tại **Nhóm 4 (Cấu Hình Điểm Mốc)**:
 
 ---
 
-## 5. Chọn Tín Hiệu & Quản Lý Preset Biểu Đồ
+## 6. Chọn Tín Hiệu & Quản Lý Preset Biểu Đồ
 
 - **Chọn tín hiệu vẽ**: Tại **Nhóm 5**, nhấp chọn các nhóm đường trung bình hoặc tín hiệu vận tốc xe để hiển thị trên đồ thị.
 - **💾 Lưu Preset**: Lưu toàn bộ cấu hình bài test hiện tại (nhóm cảm biến, màu sắc, đơn vị, setpoint, tín hiệu chọn) ra tệp `.json`.
@@ -72,7 +83,7 @@ Tại **Nhóm 4 (Cấu Hình Điểm Mốc)**:
 
 ---
 
-## 6. Bảng Phân Tích Set Point & Cài Đặt Bài TEST
+## 7. Bảng Phân Tích Set Point & Cài Đặt Bài TEST
 
 Nhấn nút **`📋 Bảng Phân Tích Set Point`** trên thanh công cụ đồ thị để mở cửa sổ phân tích chuyên sâu:
 
@@ -92,7 +103,7 @@ Trong bảng phân tích, nhấn **`⚙️ Cài Đặt Bài TEST`** để thiế
 
 ---
 
-## 7. Tương Tác Trên Đồ Thị & Phím Tắt
+## 8. Tương Tác Trên Đồ Thị & Phím Tắt
 
 | Thao Tác | Phím Tắt / Chuột | Chức Năng |
 | :--- | :--- | :--- |
@@ -106,7 +117,7 @@ Trong bảng phân tích, nhấn **`⚙️ Cài Đặt Bài TEST`** để thiế
 
 ---
 
-## 8. Xuất Báo Cáo & Cập Nhật Ứng Dụng
+## 9. Xuất Báo Cáo & Cập Nhật Ứng Dụng
 
 - **Xuất dữ liệu đã tính toán**: Nhấn **`📤 Xuất Dữ Liệu`** để xuất toàn bộ DataFrame (bao gồm các cột trung bình nhóm và thời gian trôi qua `Elapsed_s`, `Elapsed_min`, `Elapsed_hr`) ra định dạng Excel `.xlsx` hoặc `.csv`.
 - **Xuất bảng phân tích**: Trong cửa sổ Set Point Analysis, nhấn **`Xuất Bảng Ra Excel (.xlsx)`** để xuất bảng tổng hợp và đánh giá kết quả.
